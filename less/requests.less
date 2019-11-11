@@ -1,0 +1,206 @@
+@media screen and (max-width: 1653px){
+	.header-top{
+		.header-top-logo,
+		.header-top-menu{ 
+			
+			}
+
+	}
+	.last_project-tabs{
+		a{
+			margin-bottom: 15px;
+			width: 30%;
+		}
+		
+	}
+
+}
+
+/* @media screen and (max-width: 1400px){
+	.container{
+		.mobile-devices{
+			 background-size: 200px auto;
+			 padding:50px 10px 50px 10px;
+			 &-wrp{
+			 	margin: 0;
+			 	width: 100%;
+			 	outline: 1px solid red;
+			 	&-description{
+
+			 	}
+			 }
+		}
+	}
+
+} */
+
+@media screen and (max-width: 1140px){
+	.aside-bar{
+		justify-content: center;
+		.description{
+			text-align: center;
+		}
+	}
+
+}
+
+
+				
+
+@media screen and (max-width: 768px){
+	html,
+	body{
+		overflow-x: hidden;
+	}
+	.container{
+		.header{
+			min-height: 650px;
+			&-top{
+				justify-content: space-between;
+				&-logo{
+					width: 65px;
+					order: 2;
+					display: inline-block;
+						
+					.company_name{
+						display: none;
+					}
+				
+				}
+				&-menu{
+					order: 1;
+					position: relative;
+					.menu-icon{
+						display: block;
+					}
+					.menu-list{
+						transition-duration: 0.2s;
+						top: 45px;
+						position: absolute;
+						display: none;
+						background-color: rgba( 0, 0, 0, 0.8);
+						li{
+							padding: 0;
+							&:hover{
+								background-color: @white;
+								button{
+									svg{
+										fill: @light-brown;
+									}
+								}
+							}
+							a{
+								padding: 10px;
+								margin: 0;
+								display: block;
+								font-size: 17px;
+							}
+						}
+					}
+					button{
+						padding: 10px;
+					}
+
+				}
+				.header-search{
+						order: 3;
+				}
+			}
+			&-middle{
+				padding-top: 80px;
+				.arrow{
+					display: none;
+				}
+				&-slogan{
+					h1{
+						font-size: 33px
+					}
+					span{
+						display: none;
+					}
+				}
+			}
+			&-bottom{
+				padding-top: 120px;
+			}
+		}
+		.header{
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.opportunities,
+		.realization_idea,
+		.aside-bar,
+		.last_project,
+		.productivity,
+		.message,
+		.footer-top,
+		.footer-bottom{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.last_project{
+			&-tabs{
+				display: block;
+				button{
+					display: block;
+					width: 40%;
+					margin: 0 auto;
+					margin-bottom: 15px;
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		.video{
+			&-description{
+				
+				h2{
+					display: none;
+				}
+			}
+			p{
+				display: none;
+			}
+		}
+		.footer-bottom-wrp{
+			justify-content: center;
+			p,
+			a{
+			font-size: 9px;
+			}
+
+		}
+		.mobile-devices{
+			 background-size: 200px auto;
+			 padding:50px 10px 50px 10px;
+			 background-position: 14% 100%;
+			 &-wrp{
+			 	margin: 0;
+			 	width: 100%;
+			 	&-description{
+			 		
+			 	}
+			 }
+			 &-description{
+			 	&-title{
+			 		text-align: center;
+			 		margin-bottom: 20px;
+			 	}
+			 	&-definition{
+			 		padding: 0 20px;
+			 		font-size: 14px;
+			 		margin-bottom: 20px;
+			 	}
+			 	&-list{
+			 		padding-left: 44%;
+			 		span{
+			 			font-size: 11px;
+			 		}
+			 		padding-bottom: 110px;
+			 	}
+			 }
+		}
+	}
+}
